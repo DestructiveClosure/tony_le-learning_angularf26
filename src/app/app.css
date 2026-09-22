@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    padding: 1rem 2rem;
+}
+
+.container > h2{
+    font-size: 3rem;
+    color: #310047;
+    margin-bottom: 20px;
+}
+
+.recipe-card{
+    border: 2px solid #6a329f;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    transition: all 0.2s ease-in-out;
+}.recipe-card:hover{
+    background-color: #eeeeee;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+
+.recipe-card > h2{
+    color: #6a329f;
+}
+
+.recipe-card > p {
+    font-size: 0.7rem;
+}
+
+.recipe-rating{
+    background-color: #aa72df;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 700;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-top: 10px;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #aa72df;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in background-color;
+}button:hover{
+    background-color: #6a329f;
+}
+
+.high-rating{
+    background-color: #04634b;
+    width: fit-content;
+    padding: 5px;
+    font-size: 10px;
+    color: #e4e2e6;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.recipe-menu{
+    font-size: 1rem !important;
+    font-weight: bold;
+}
