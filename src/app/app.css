@@ -88,3 +88,12 @@ button{
     font-size: 1rem !important;
     font-weight: bold;
 }
+
+.no-courses{
+    color: #c8a4eb;
+    background-color: #310047;
+    padding: 10px;
+    width: fit-content;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}

@@ -7,6 +7,6 @@ export interface Recipe {
     rating: number,
     image?: string,
     country: string,
-    onMenu?: boolean,
+    onMenu?: boolean
 }
 
